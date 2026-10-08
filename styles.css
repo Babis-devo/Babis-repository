@@ -1,0 +1,37 @@
+body{
+    color: blue;
+    background-color: lightgray;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: normal;
+}
+hex{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: normal;
+}
+
+header{
+    background-color: pink;
+    padding: 40px;
+}
+footer{
+    background-color: green;
+    padding: 40px;
+}
+main{
+    max-width: 0;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+nav ul{
+    display: flex;
+    gap: 35px;
+    list-style: none;
+    text-decoration: none;
+}
+
+table,th,td{
+    border: 30px;
+    padding: 45px;
+}
